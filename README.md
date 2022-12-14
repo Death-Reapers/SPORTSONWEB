@@ -1,3 +1,3 @@
 # Sports Website
-This is a static HTML,CSS based website created as part of a project in sophomore year of college.
+This is a static HTML,CSS based website.
 To run this project download all the files in one folder and open them in any browser.
