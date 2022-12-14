@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="keywords" content="SPORTS ON WEB,About,map,mumbai">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title> SPORTS ON WEB </title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<div class="basic">
+  SPORTS ON WEB
+</div>
+<a href="index.html"><div class="option1">HOME </div></a> 
+<a href="products.html"><div class="option2">Our Products</div></a> 
+<a href="about.html"><div class="option3">About Us</div></a>
+
+<div id="googleMap2" style="width:700px;height:400px;left:150px;top:100px;"></div>
+<script>
+function myMap() 
+{
+  var mapOptions2 = 
+  {
+    center: new google.maps.LatLng(18.975,72.825833),
+    zoom:9,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapOptions2);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb34wgRwRY_eLvrzFNfGUMxzxQdJ5aHZQ&callback=myMap"></script>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5472051951047!2d72.84471331482271!3d19.127509987058378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d5f25db481%3A0x198eb7aa17715555!2sFranco%20Sport&#39;s!5e0!3m2!1sen!2sin!4v1670999930833!5m2!1sen!2sin" width="600" height="450" style="border:109;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
